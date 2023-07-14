@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>Form demo </title>
+</head>
+<body>
+<form>
+Enter name <input type="text" placeholder="Enter name" minlength="6" maxlength="20"
+required>
+<br><br>
+Enter Birth Date <input type="date"
+required><br><br>
+<input type="number" placeholder="age" min="12" max="30" required> <br><br>
+<input type="text" placeholder="Enter password"
+required><br><br>
+<input type="email" placeholder="Enter email" required><br><br>
+<input type="checkbox"> I agree <br><br>
+<input type="radio" name="gender"> MALE
+<input type="radio" name="gender">FEMALE <br><br>
+<input type="password" placeholder="Entter password" required> <br><br>
+Select Language<select multiple>
+<option> English </option>
+<option> Hindi </option>
+<option> Marathi </option>
+</select><br><br>
+Enter your address <textarea rows="5" cols="5" placeholder="Enter address" required>
+</textarea>
+<br><br>
+<a href="timetable.html" target="_blank"> Open page </a> <br><br>
+<button type="submit" style="font-size:200%"> Register </button>
+<button type="submit" style="font-size:200%"> Reset </button>
+<button type="submit" style="font-size:200%"> New Page </button>
+Choose your profession: <br><br>
+            <input list="profession" name="profession">
+                <datalist id="profession">
+                    <option value="Government Servant">
+                    <option value="Doctor">
+                    <option value="Teacher">
+                    <option value="Engineer">
+                    <option value="SInger">
+                </datalist><br><br>
+                <label for="favcolor">Select your favorite color:</label>
+                <input type="color" id="favcolor" name="favcolor"> <br><br>
+                Upload your birth certificate : <br><br>
+                <label for="myfile">Select a file: </label>
+                <input type="file" id="myfile" name="myfile"><br><br>
+                <label for="appt">Select a time when you are free:</label>
+                <input type="time" id="appt" name="appt">
+</form>
+</body>
+</html>
